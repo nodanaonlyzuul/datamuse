@@ -1,6 +1,6 @@
 # Datamuse
 
-A simple ruby gem for the [Datamuse api](http://www.datamuse.com/api/).
+Find rhyming words using the [Datamuse api](http://www.datamuse.com/api/).
 
 
 ## Installation
