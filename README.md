@@ -53,7 +53,7 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/nodana
 
 ## But Also
 
-I heard you rushed and rushed, and attacked
-Then they rebuked then you had to smack
-Causing rambunction throughout the sphere
+I heard you rushed and rushed, and attacked\
+Then they rebuked then you had to smack\
+Causing rambunction throughout the sphere\
 Raise the levels of the boom inside the ear
