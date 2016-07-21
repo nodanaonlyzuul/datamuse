@@ -25,7 +25,12 @@ Or install it yourself as:
 client = Datamuse.new(rhymes_with: "dog", max: 10)
 
 client.get_rhymes
- => [#<Word:0x007ffcd4ad0308 @word="demagogue", @score=1168, @syllable_count=3>, #<Word:0x007ffcd4ad02e0 @word="frog", @score=758, @syllable_count=1>, #<Word:0x007ffcd4ad02b8 @word="dialogue", @score=684, @syllable_count=3>, #<Word:0x007ffcd4ad0268 @word="log", @score=642, @syllable_count=1>, #<Word:0x007ffcd4ad0240 @word="analog", @score=603, @syllable_count=3>, #<Word:0x007ffcd4ad0218 @word="hog", @score=574, @syllable_count=1>, #<Word:0x007ffcd4ad01c8 @word="agog", @score=537, @syllable_count=2>, #<Word:0x007ffcd4ad01a0 @word="epilogue", @score=530, @syllable_count=3>, #<Word:0x007ffcd4ad0178 @word="bog", @score=514, @syllable_count=1>, #<Word:0x007ffcd4ad0128 @word="blog", @score=512, @syllable_count=1>]
+ => [ #<Word:0x007ffcd4ad0308 @word="demagogue", @score=1168, @syllable_count=3>,
+ #<Word:0x007ffcd4ad02e0 @word="frog", @score=758, @syllable_count=1>,
+ #<Word:0x007ffcd4ad02b8 @word="dialogue", @score=684, @syllable_count=3>,
+ #<Word:0x007ffcd4ad0268 @word="log", @score=642, @syllable_count=1>,
+ ...SNIP
+ ]
 
 client.get_rhymes.map(&:word)
  => ["demagogue", "frog", "dialogue", "log", "analog", "hog", "agog", "epilogue", "bog", "blog"]
